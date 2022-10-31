@@ -1,0 +1,69 @@
+
+
+  .classement {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: left;
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+
+  .groupe {
+    font-size: 1.2em;
+    text-align: left;
+    color: black;
+    padding-bottom: 5px;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+
+    .mainContainer{
+        width: 1100px;
+        margin: auto;
+    }
+
+    .photoMuraille{
+        width: 1100px;
+        height: 300px;
+        display: block;
+    }
+       
+    .rangéeRouge {
+        display: grid;
+        grid-template-columns: 15% 200px auto 150px;
+        background-color: red;
+        height: 45px;
+        border: 2px solid black;
+        padding-left: 10px;
+        padding-bottom: 0px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        align-items: center;
+        
+      }
+
+      .rangéeblanche {
+        display: grid;
+        grid-template-columns: 15% 200px auto 150px;
+        height: 60px;
+        border-bottom: 2px solid black;
+        border-left: 2px solid black;
+        border-right: 2px solid black;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        align-items: center;
+        color: black;
+      }
+
+      .rangée1Gras {
+        font-weight: bold;
+      }
+      .écritureRB {
+      text-align: left;
+      font-family:Arial, Helvetica, sans-serif;
+      font-size: small;
+    }
+
+    .drapeau {
+        height: 70px;
+        width: auto;
+      }
